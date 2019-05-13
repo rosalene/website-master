@@ -1,0 +1,125 @@
+@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300|Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700');
+body{
+	font-family: 'Quicksand', sans-serif;
+}
+footer{
+	
+ 
+  /* height = body margin-bottom */
+ 
+  width: 100%;
+  margin:0px;
+	padding:5%;
+	border: 1px solid #000;
+	background: #333;
+	color:#fff;
+
+	text-align: center;
+}
+
+.page-body{
+	height: 100%;
+	
+}
+
+img{
+	width: 80%;
+	height: 10%;
+}
+
+header{
+	color:green;
+}
+.landing h1{
+	margin: 0;
+}
+.landing{
+	padding:5%;
+	margin:0px;
+	/* padding:50%; */
+	text-align: center;
+	vertical-align: 50%;
+	height:100vh;
+	
+	background-image: url(../images/DSC_0104.JPG);
+	background-size: cover;
+	color:white;
+	font-size: 20pt;
+}
+.landing-text{
+	
+	/* padding:50%; */
+	
+	padding:5%;
+	border-top:1px solid rgba(0,0,0,0.3);
+	
+
+	
+	
+}
+
+.carousel{
+
+	text-align: center;
+	
+	display: block;
+	height:80%;
+	width: 100%;
+}
+.carousel img{
+	animation:fading 10s infinite;
+	height: 100%;
+	width: 80%;
+	-webkit-box-shadow: 0 0 5px #c9c9c9;
+    box-shadow: 0 0 5px #c9c9c9;
+
+}
+.home-data{
+	padding:5%;
+}
+
+h2{
+	padding-top: 4%;
+	
+}
+
+footer h3{
+	margin:0px;
+	margin-bottom:5px;
+}
+
+
+input{
+	background-position: 100% 0;
+	background-size: 200% 200%;
+	border-radius: 50px;
+	padding: 12px 48px;
+	font-size: 16px;
+  font-weight: 200;
+	text-decoration: none;
+	
+  
+}
+#button {
+  background-color: #00782e;
+  background-image: linear-gradient(45deg, #045702 0%, #09faaa 55%, #00782e 90%);
+  background-position: 100% 0;
+  background-size: 200% 200%;
+  color: white;
+  border-radius: 50px;
+  padding: 12px 48px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  text-decoration: none;
+  box-shadow: 0 16px 32px 0 rgba(3, 143, 66, 0.35);
+  transition: all 0.5s ease;
+}
+
+#button:hover {
+  box-shadow: 0 0px 0px 0 rgba(1, 252, 42, 0);
+  background-position: 0 0;
+}

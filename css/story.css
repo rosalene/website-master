@@ -1,0 +1,10 @@
+.story-body{
+    padding:5%;
+    height: 100vh;
+}
+.story-body h1{
+    margin: 0px;
+}
+.story-body p{
+    margin: 0px;
+}
